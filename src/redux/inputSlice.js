@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-//createSlice creates action and reducer.
+//createSlice is used to configure the reducer and the initial value
 export const inputSlice = createSlice({
     name: 'input',
     initialState: {
@@ -14,5 +14,5 @@ export const inputSlice = createSlice({
 });
 
 export const { setInputValue } = inputSlice.actions;
-export default inputSlice.reducer;  // Export the reducer directly
+export default inputSlice.reducer;
 

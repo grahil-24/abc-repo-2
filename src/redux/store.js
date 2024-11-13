@@ -5,7 +5,7 @@ import inputReducer from './inputSlice';
 const store = configureStore({
     //function which takes action and current state as input, and returns new state.
     reducer: {
-        input: inputReducer
+        input: inputReducer,
     }
 });
 
