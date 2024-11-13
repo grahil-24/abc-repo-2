@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Redux Input Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React + Redux app demonstrating how to manage input values across components using Redux for state management. This app contains three main components:
+
+    ComponentA: The parent component that houses the other components.
+    ComponentB: Contains a text input field and stores its value in the Redux store.
+    ComponentC: Retrieves the input value from the Redux store and displays it.
+
+This project helps to understand the basics of Redux, including the store, actions, reducers, and how React components interact with Redux state using hooks.
 
 ## Available Scripts
 
